@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		04220DA222F3098F00E4AC0B /* NeusFeet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04220DA022F3098F00E4AC0B /* NeusFeet.xcdatamodeld */; };
 		04220DA422F3099000E4AC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04220DA322F3099000E4AC0B /* Assets.xcassets */; };
 		04220DA722F3099000E4AC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04220DA522F3099000E4AC0B /* LaunchScreen.storyboard */; };
+		04220DAF22F30CED00E4AC0B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04220DAE22F30CED00E4AC0B /* Media.xcassets */; };
+		04220DB622F3105B00E4AC0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04220DB822F3105B00E4AC0B /* Localizable.strings */; };
+		04220DBB22F3222F00E4AC0B /* HeadlinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220DBA22F3222F00E4AC0B /* HeadlinesViewController.swift */; };
+		04220DC622F3262D00E4AC0B /* HeadlinesContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220DC522F3262D00E4AC0B /* HeadlinesContract.swift */; };
+		04220DCA22F3270700E4AC0B /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220DC922F3270700E4AC0B /* Articles.swift */; };
+		04220DCD22F423A000E4AC0B /* ArticlesSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220DCC22F423A000E4AC0B /* ArticlesSchema.swift */; };
+		04220DCF22F4255500E4AC0B /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220DCE22F4255500E4AC0B /* Endpoints.swift */; };
+		04220DD122F42A6000E4AC0B /* ArticlesApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220DD022F42A6000E4AC0B /* ArticlesApiService.swift */; };
+		8F1F34EE3309FB5A1F6EA795 /* Pods_NeusFeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67230C8914F7E955F95BF18F /* Pods_NeusFeet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,19 @@
 		04220DA322F3099000E4AC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04220DA622F3099000E4AC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04220DA822F3099000E4AC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04220DAE22F30CED00E4AC0B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		04220DB222F3101F00E4AC0B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		04220DB322F3101F00E4AC0B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		04220DB722F3105B00E4AC0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04220DBA22F3222F00E4AC0B /* HeadlinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesViewController.swift; sourceTree = "<group>"; };
+		04220DC522F3262D00E4AC0B /* HeadlinesContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesContract.swift; sourceTree = "<group>"; };
+		04220DC922F3270700E4AC0B /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		04220DCC22F423A000E4AC0B /* ArticlesSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesSchema.swift; sourceTree = "<group>"; };
+		04220DCE22F4255500E4AC0B /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		04220DD022F42A6000E4AC0B /* ArticlesApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesApiService.swift; sourceTree = "<group>"; };
+		67230C8914F7E955F95BF18F /* Pods_NeusFeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeusFeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E019D096A7141D4728D126 /* Pods-NeusFeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeusFeet.debug.xcconfig"; path = "Target Support Files/Pods-NeusFeet/Pods-NeusFeet.debug.xcconfig"; sourceTree = "<group>"; };
+		A1246FB6A1CFFCDC5EE8C331 /* Pods-NeusFeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeusFeet.release.xcconfig"; path = "Target Support Files/Pods-NeusFeet/Pods-NeusFeet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1F34EE3309FB5A1F6EA795 /* Pods_NeusFeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				04220D9822F3098F00E4AC0B /* NeusFeet */,
 				04220D9722F3098F00E4AC0B /* Products */,
+				1548F5D50DEA698959354EA6 /* Pods */,
+				4710870C449531A6DC95FCA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +81,9 @@
 		04220D9822F3098F00E4AC0B /* NeusFeet */ = {
 			isa = PBXGroup;
 			children = (
+				04220DCB22F4238A00E4AC0B /* Network */,
+				04220DC822F326CE00E4AC0B /* Modules */,
+				04220DC722F326BC00E4AC0B /* Models */,
 				04220D9922F3098F00E4AC0B /* AppDelegate.swift */,
 				04220D9B22F3098F00E4AC0B /* ViewController.swift */,
 				04220D9D22F3098F00E4AC0B /* Main.storyboard */,
@@ -63,8 +91,134 @@
 				04220DA522F3099000E4AC0B /* LaunchScreen.storyboard */,
 				04220DA822F3099000E4AC0B /* Info.plist */,
 				04220DA022F3098F00E4AC0B /* NeusFeet.xcdatamodeld */,
+				04220DAE22F30CED00E4AC0B /* Media.xcassets */,
+				04220DB822F3105B00E4AC0B /* Localizable.strings */,
 			);
 			path = NeusFeet;
+			sourceTree = "<group>";
+		};
+		04220DB922F321F600E4AC0B /* Headlines */ = {
+			isa = PBXGroup;
+			children = (
+				04220DC422F325EC00E4AC0B /* View */,
+				04220DC322F325E500E4AC0B /* Router */,
+				04220DC222F325DE00E4AC0B /* Presenter */,
+				04220DC122F325D700E4AC0B /* Interactor */,
+				04220DC022F325CF00E4AC0B /* Contract */,
+			);
+			path = Headlines;
+			sourceTree = "<group>";
+		};
+		04220DBC22F3227300E4AC0B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		04220DBD22F3227D00E4AC0B /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		04220DBE22F3228600E4AC0B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		04220DBF22F3228E00E4AC0B /* PreviewArticle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PreviewArticle;
+			sourceTree = "<group>";
+		};
+		04220DC022F325CF00E4AC0B /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				04220DC522F3262D00E4AC0B /* HeadlinesContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		04220DC122F325D700E4AC0B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		04220DC222F325DE00E4AC0B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		04220DC322F325E500E4AC0B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		04220DC422F325EC00E4AC0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04220DBA22F3222F00E4AC0B /* HeadlinesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04220DC722F326BC00E4AC0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04220DC922F3270700E4AC0B /* Articles.swift */,
+				04220DCC22F423A000E4AC0B /* ArticlesSchema.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04220DC822F326CE00E4AC0B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				04220DBF22F3228E00E4AC0B /* PreviewArticle */,
+				04220DBE22F3228600E4AC0B /* Settings */,
+				04220DBD22F3227D00E4AC0B /* Bookmarks */,
+				04220DBC22F3227300E4AC0B /* Search */,
+				04220DB922F321F600E4AC0B /* Headlines */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		04220DCB22F4238A00E4AC0B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				04220DCE22F4255500E4AC0B /* Endpoints.swift */,
+				04220DD022F42A6000E4AC0B /* ArticlesApiService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1548F5D50DEA698959354EA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E019D096A7141D4728D126 /* Pods-NeusFeet.debug.xcconfig */,
+				A1246FB6A1CFFCDC5EE8C331 /* Pods-NeusFeet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4710870C449531A6DC95FCA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67230C8914F7E955F95BF18F /* Pods_NeusFeet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04220DAB22F3099000E4AC0B /* Build configuration list for PBXNativeTarget "NeusFeet" */;
 			buildPhases = (
+				6CDC28D96079393CA349C999 /* [CP] Check Pods Manifest.lock */,
 				04220D9222F3098F00E4AC0B /* Sources */,
 				04220D9322F3098F00E4AC0B /* Frameworks */,
 				04220D9422F3098F00E4AC0B /* Resources */,
+				FF1ABBD456B5D1C848A9701D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +265,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 04220D8D22F3098F00E4AC0B;
 			productRefGroup = 04220D9722F3098F00E4AC0B /* Products */;
@@ -125,22 +282,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04220DB622F3105B00E4AC0B /* Localizable.strings in Resources */,
 				04220DA722F3099000E4AC0B /* LaunchScreen.storyboard in Resources */,
 				04220DA422F3099000E4AC0B /* Assets.xcassets in Resources */,
+				04220DAF22F30CED00E4AC0B /* Media.xcassets in Resources */,
 				04220D9F22F3098F00E4AC0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CDC28D96079393CA349C999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeusFeet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1ABBD456B5D1C848A9701D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeusFeet/Pods-NeusFeet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeusFeet/Pods-NeusFeet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeusFeet/Pods-NeusFeet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04220D9222F3098F00E4AC0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04220DBB22F3222F00E4AC0B /* HeadlinesViewController.swift in Sources */,
+				04220DC622F3262D00E4AC0B /* HeadlinesContract.swift in Sources */,
+				04220DCA22F3270700E4AC0B /* Articles.swift in Sources */,
+				04220DCD22F423A000E4AC0B /* ArticlesSchema.swift in Sources */,
 				04220DA222F3098F00E4AC0B /* NeusFeet.xcdatamodeld in Sources */,
 				04220D9C22F3098F00E4AC0B /* ViewController.swift in Sources */,
+				04220DCF22F4255500E4AC0B /* Endpoints.swift in Sources */,
 				04220D9A22F3098F00E4AC0B /* AppDelegate.swift in Sources */,
+				04220DD122F42A6000E4AC0B /* ArticlesApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +358,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04220D9E22F3098F00E4AC0B /* Base */,
+				04220DB222F3101F00E4AC0B /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +367,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				04220DA622F3099000E4AC0B /* Base */,
+				04220DB322F3101F00E4AC0B /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04220DB822F3105B00E4AC0B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04220DB722F3105B00E4AC0B /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -231,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -284,9 +503,11 @@
 		};
 		04220DAC22F3099000E4AC0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E019D096A7141D4728D126 /* Pods-NeusFeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NeusFeet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,15 +516,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.bsh.NeusFeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04220DAD22F3099000E4AC0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1246FB6A1CFFCDC5EE8C331 /* Pods-NeusFeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NeusFeet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.bsh.NeusFeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
