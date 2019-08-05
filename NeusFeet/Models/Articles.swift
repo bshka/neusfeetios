@@ -11,11 +11,11 @@ import Foundation
 struct Article{
     var publishedAt = Date()
     var author = ""
-    var urlToImage = ""
+    var urlToImage: URL?
     var description = ""
     var sourceName = ""
     var sourceId = ""
     var title = ""
-    var url = ""
+    var url: URL?
     var content = ""    
 }

@@ -12,7 +12,6 @@ target 'NeusFeet' do
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
 
-  pod 'AlamofireObjectMapper'
   pod 'RxAlamofire'
 
 end
